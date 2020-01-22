@@ -1,0 +1,70 @@
+body {
+    background-color: #ecf0f1;
+}
+
+.navbar {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    z-index: 9999;
+}
+
+.pindah {
+    padding-left: 260px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.sidebar .btn {
+    background-color: #1abc9c;
+    border: none;
+}
+
+.contant {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #1abc9c;
+    color: #fff;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    opacity: 0;
+}
+
+.toggled {
+    opacity: 1;
+}
+
+.contant ul li {
+    margin: 20px;
+}
+
+.contant li a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: white;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 170%;
+}

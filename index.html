@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+
+    <!-- MyCSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+        crossorigin="anonymous">
+
+    <title>Admin</title>
+</head>
+
+<body>
+
+    <section class="wrapper" id="wrapper">
+        <div class="sidebar" id="sidebar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="btn btn-secondary" id="menu" href="#menu"><i class="fas fa-align-left"></i> Toggle
+                    Sidebar</a>
+            </nav>
+        </div>
+        <div class="contant" id="contant">
+            <div class="sidebar-header">
+                <h3 class="text-center mb-5 mt-3">Bootstrap Sidebar</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="home.html" class="klik-menu" id="home"><i class="fas fa-home"></i> Home</a>
+                </li>
+                <li>
+                    <a href="about.html" class="klik-menu" id="about"><i class="fas fa-address-card"></i> About</a>
+                </li>
+                <li>
+                    <a href="pricing.html" class="klik-menu" id="pricing"><i class="fas fa-briefcase"></i> Pricing</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="klik-menu" id="contact"><i class="fas fa-address-book"></i> Contact</a>
+                </li>
+                <li>
+                    <a href="penggajian.html" class="klik-menu" id="penggajian"><i class="fas fa-book"></i> Penggajian</a>
+                </li>
+            </ul>
+            <footer>
+                <p class="text-center">2019 &copy; Nakula Sadewa</p>
+            </footer>
+        </div>
+        <div class="badan">
+
+
+        </div>
+    </section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $("#menu").click(function (e) {
+                e.preventDefault();
+                $(".contant").toggleClass("toggled");
+                $(".navbar").toggleClass("pindah");
+            });
+        });
+    </script>
+</body>
+
+</html>
